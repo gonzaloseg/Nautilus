@@ -28,6 +28,16 @@ import { NovedadesComponent } from './novedades/novedades.component';
   ],
   imports: [
     CommonModule
-  ]
-})
+  ],exports:[
+    HomeComponent,
+    ContactComponent,
+    ServicesComponent,
+    BlogComponent,
+    CestaComponent,
+    HombreComponent,
+    MujerComponent,
+    UnisexComponent,
+    NosotrosComponent,
+    NovedadesComponent
+  ]})
 export class PagesModule { }
